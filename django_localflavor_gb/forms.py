@@ -6,7 +6,7 @@ from __future__ import absolute_import, unicode_literals
 
 import re
 
-from django.contrib.localflavor.gb.gb_regions import GB_NATIONS_CHOICES, GB_REGION_CHOICES
+from django_localflavor_gb.gb_regions import GB_NATIONS_CHOICES, GB_REGION_CHOICES
 from django.forms.fields import CharField, Select
 from django.forms import ValidationError
 from django.utils.translation import ugettext_lazy as _
